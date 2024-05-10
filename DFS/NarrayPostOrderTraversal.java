@@ -24,7 +24,6 @@ public class NarrayPostOrderTraversal {
     public List<Integer> nArrayPostOrder(Node root ){
         List<Integer> res = new ArrayList<>();
         if(root == null) return res;
-
         helper(root , res);
         return res;
     }
