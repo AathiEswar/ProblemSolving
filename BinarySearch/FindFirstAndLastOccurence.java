@@ -16,6 +16,8 @@ public class FindFirstAndLastOccurence {
     private int searchHelper(int[] nums, int target, boolean isFirstFound) {
         int start = 0;
         int end = nums.length-1;
+
+        // maybe an answer var
         int ans = -1;
 
         while (start <= end){
@@ -28,10 +30,14 @@ public class FindFirstAndLastOccurence {
                end = mid - 1;
            }
            else{
+               // saving the possible answer that is the mid
                ans = mid ;
+
+               // if first needs to be found then eliminate left
                if(isFirstFound){
                    end = mid - 1;
                }
+               // if not then go right to find the last occurence
                else {
                    start = mid + 1;
                }
