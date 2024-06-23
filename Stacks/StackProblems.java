@@ -1,4 +1,4 @@
-package ProblemSolving;
+package ProblemSolving.Stacks;
 
 import java.util.Arrays;
 

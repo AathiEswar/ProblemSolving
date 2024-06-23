@@ -1,4 +1,4 @@
-package ProblemSolving;
+package ProblemSolving.MathAndNumbers;
 import java.util.*;
 import java.lang.*;
 
