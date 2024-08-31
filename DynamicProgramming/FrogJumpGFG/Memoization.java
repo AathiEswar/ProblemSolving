@@ -1,5 +1,7 @@
 package ProblemSolving.DynamicProgramming.FrogJumpGFG;
 
+import java.util.Arrays;
+
 public class Memoization {
     public int minimumEnergy(int arr[],int N){
         //code here
