@@ -1,0 +1,2 @@
+DYNAMIC PROGRAMMING NOTES :
+* Recursion -> Memoization -> Tabulation -> Space Optimization
