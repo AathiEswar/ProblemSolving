@@ -12,7 +12,6 @@ public class CycleInDirectedGraph {
                 return true;
             }
         }
-
         return false ;
     }
     public static boolean dfs(ArrayList<ArrayList<Integer>> adjList , int[] visited , int[] pathVisited , int node){

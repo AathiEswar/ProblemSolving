@@ -25,8 +25,6 @@ public class ShortestPathInUndirectedGraph {
 
         queue.offer(new int[]{src , 0});
 
-
-
         while(!queue.isEmpty()){
             int node = queue.peek()[0];
             int value = queue.peek()[1];
