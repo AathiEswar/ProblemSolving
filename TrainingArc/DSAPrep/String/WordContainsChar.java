@@ -1,4 +1,4 @@
-package ProblemSolving.DSAPrep;
+package ProblemSolving.TrainingArc.DSAPrep.String;
 
 import java.util.ArrayList;
 import java.util.List;
