@@ -1,0 +1,9 @@
+STRING :
+2942) Words Containing String = use loop to iterate through array and string , if char found append to list
+                                and break, return the list.
+
+ALGORITHMS :
+
+TIPS AND TRICKS :
+* .indexOf() is more efficient than .contains() ( uses indexOf internally , uses primitive char not String)
+
