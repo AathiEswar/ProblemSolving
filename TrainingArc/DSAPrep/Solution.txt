@@ -1,9 +1,18 @@
 STRING :
-2942) Words Containing String = use loop to iterate through array and string , if char found append to list
-                                and break, return the list.
+2942) Words Containing String = use loop to iterate through array and string , if char found append to list and break,
+                                return the list.
+2131) Longest Pali by +2 String = create a 26x26 hap, loop through the array , check if the reverse is
+                                available , if no count+=4 and decrease count , else add the current
+                                word to map , loop through the map , if a self pali if found count+=2
+                                break and return count;
 
-ALGORITHMS :
+ALGORITHMS OR PATTERNS :
+STRINGS :
+* Using Frequency - use hashmap or matrix
+* Using Index - use hashmap
 
 TIPS AND TRICKS :
+STRINGS :
 * .indexOf() is more efficient than .contains() ( uses indexOf internally , uses primitive char not String)
+* String mostly either needs index or its frequency to compute next step
 

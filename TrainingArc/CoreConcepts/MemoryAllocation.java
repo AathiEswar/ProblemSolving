@@ -6,7 +6,7 @@ package ProblemSolving.TrainingArc.CoreConcepts;
 *   - Stack Memory -> For handling function's memory and the primitive types used inside them
 *   - Heap Memory -> For handling Wrapper and Object Types
 *   - String Pool -> stores String literals in JVM for better efficiency
-*   - Method Area -> Aka meta space , stores static types
+*   - Method Area -> Aka meta space , stores static types in JVM
 *   - Thread Local Pool -> Each thread has its own stack memory for primitive ,
 *                          common heap memory for wrappers and objects,
 *                          use threadLocal to add threadLocalMap inside that thread and
